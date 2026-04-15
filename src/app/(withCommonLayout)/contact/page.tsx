@@ -11,7 +11,7 @@ const Contact = () => {
       <LandownerBanner
         img={
           // "https://media.istockphoto.com/id/1450058572/photo/businessman-using-a-laptop-and-touching-on-virtual-screen-contact-icons-consists-of-telephone.jpg?s=612x612&w=0&k=20&c=R5wzCGHu6ZS-8EQpJ2Z1tkSbKGGdJH4apVhFM18EXSM="
-          "https://i.postimg.cc/FRrP6b2g/pexels-joenibraw-1416530.jpg"
+          "https://i.postimg.cc/1zgMFFWg/12C69ECB-78D8-4D3C-A543-63A4F6AD6F9C.png"
         }
         title="contact"
         text="Feel Free to Contact Us for Any Queries"
