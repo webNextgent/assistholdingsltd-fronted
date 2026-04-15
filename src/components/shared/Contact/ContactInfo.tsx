@@ -49,9 +49,7 @@ const ContactInfo: React.FC = () => {
           >
             Plot-11, Signature House, Level-9, Block-D, Main Road,
             <br />
-            Aftab Nagar, Dhaka,
-        
-            Bangladesh
+            Aftab Nagar, Dhaka, Bangladesh
           </motion.address>
 
           <motion.a
@@ -92,12 +90,12 @@ const ContactInfo: React.FC = () => {
             href="tel:+8801324437947"
             className="text-xl font-bold mb-6 hover:text-blue-500 transition-colors duration-300"
           >
-            +8801711-181453
+            09649-11 22 35 <br /> 01805-03 55 55 <br /> 01805-03 55 51{" "}
           </motion.a>
 
-          <motion.p variants={itemVariants} className="text-xl font-bold">
+          {/* <motion.p variants={itemVariants} className="text-xl font-bold">
             09649112235
-          </motion.p>
+          </motion.p> */}
         </div>
 
         {/* 3. WORK SCHEDULE Column */}
@@ -118,7 +116,7 @@ const ContactInfo: React.FC = () => {
               variants={itemVariants}
               className="font-semibold text-lg"
             >
-              9:30
+              10:00am
             </motion.span>
             {/* The horizontal line separator */}
             <motion.div
@@ -129,7 +127,7 @@ const ContactInfo: React.FC = () => {
               variants={itemVariants}
               className="font-semibold text-lg"
             >
-              17:30
+              6:00pm
             </motion.span>
           </div>
         </div>
