@@ -10,8 +10,7 @@ const Blogs = () => {
       <LandownerBanner
         img={
           // "https://t3.ftcdn.net/jpg/04/96/48/04/360_F_496480434_VtvDbJ3I7u3UHi2pkQuaTahV2TegLfCd.jpg"
-          "https://i.postimg.cc/ydbpPsw3/pexels-eswar-jpeg-521339486-16331733.jpgm
-          "
+          "https://i.postimg.cc/ydbpPsw3/pexels-eswar-jpeg-521339486-16331733.jpgm"
         }
         title="blogs"
         // text="find your nest"
