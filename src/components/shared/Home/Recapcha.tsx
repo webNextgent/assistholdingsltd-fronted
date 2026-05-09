@@ -35,7 +35,7 @@ const FixedDrawer: React.FC = () => {
             aria-label="Privacy and Terms menu"
         >
             <div className="shrink-0 mr-2 ">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/RecaptchaLogo.svg/1200px-RecaptchaLogo.svg.png" className='w-14 h-14' alt="" />
+                <img src="https://i.postimg.cc/j50YpsNG/Recaptcha-Logo-svg.png" className='w-14 h-14' alt="" />
             </div>
 
             <div className={`

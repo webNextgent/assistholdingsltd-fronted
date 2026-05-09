@@ -54,7 +54,7 @@ const Relentlessingoingbeyond: React.FC = () => {
           viewport={{ once: true }}
           variants={fadeUp}
         >
-          RELENT LESS IN GOING BEYOND
+          RELENTLESS IN GOING BEYOND
         </motion.p>
         <motion.div
           className="mx-auto mt-2 h-0.5 w-24 bg-orange-400"

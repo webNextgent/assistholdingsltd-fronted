@@ -80,13 +80,20 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="flex flex-col md:flex-row justify-between items-center text-xs text-gray-500 pt-4">
-          <p className="mb-4 md:mb-0 text-gray-300">
+          {/* <p className="mb-4 md:mb-0 text-gray-300">
             © 2025 Assist Holdings Limited | All Rights Reserved.
+          </p> */}
+
+
+          <p className="mb-4 md:mb-0 text-gray-300 mx-auto">
+                © {new Date().getFullYear()} Assist Holdings Limited | All Rights Reserved.
           </p>
-          <p className="mb-4 md:mb-0 text-gray-300">
+
+          
+          {/* <p className="mb-4 md:mb-0 text-gray-300">
            Development By{" "}
             <a className="font-bold " href="https://nextgent.org">NextGent.org </a>
-          </p>
+          </p> */}
 
           <div className="flex items-center space-x-4">
             {[FaFacebookF, FaLinkedinIn, FaYoutube, FaInstagram].map(
