@@ -8,7 +8,7 @@ const socialLinks = [
   { icon: FaFacebookF, href: 'https://www.facebook.com/Assistholdingslimited', color: '#3b5998' },
   { icon: FaLinkedinIn, href: 'https://www.linkedin.com/in/assist-holdings-limited-116007383/', color: '#0077b5' },
   { icon: FaYoutube, href: 'https://www.youtube.com/@AssistHoldingsLimited', color: '#ff0000' },
-  { icon: FaInstagram, href: 'https://www.instagram.com/', color: '#C13584' },
+  // { icon: FaInstagram, href: 'https://www.instagram.com/', color: '#C13584' },
 ];
 
 const FixedSocialSidebar: React.FC = () => {

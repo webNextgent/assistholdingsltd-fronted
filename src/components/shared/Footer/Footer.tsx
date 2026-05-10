@@ -6,7 +6,6 @@ import {
   FaFacebookF,
   FaLinkedinIn,
   FaYoutube,
-  FaInstagram,
   FaWhatsapp,
 } from "react-icons/fa";
 import { IoIosArrowUp } from "react-icons/io";
@@ -96,13 +95,16 @@ const Footer: React.FC = () => {
           </p> */}
 
           <div className="flex items-center space-x-4">
-            {[FaFacebookF, FaLinkedinIn, FaYoutube, FaInstagram].map(
+            {[FaFacebookF, FaLinkedinIn, FaYoutube].map(
               (Icon, idx) => {
                 const links = [
                   "https://www.facebook.com/Assistholdingslimited",
-                  "https://l.facebook.com/l.php?u=https%3A%2F%2Flinkedin.com%2Fin%2Fassist-holdings-limited-116007383%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExV2QyM2JWU0d3dHp4eEhjOQEeh4rY43DU4QhaXdtS-5qa9EdeIEuTGm0vBxuwubqsr3j3_yJj-xKOdAtmzNI_aem_yV49j2VOaYtzkGVZCnkD-A&h=AT1xtyHf18PbLq0Zv4QfdT-DF6VlVyd0zCxte2uw7XRw9TIagmw4TWGB2XJnb8a3DNTRUh5TCBihafd4tFfykHjlcWXTWRPyjzDqCn2UBrCtVn1aNEzEjeURyqRNmYKK8Zwl",
+
+                  "https://www.linkedin.com/in/assist-holdings-limited-116007383",
+
                   "https://www.youtube.com/@AssistHoldingsLimited",
-                  "https://www.instagram.com/",
+                  
+                  // "https://www.instagram.com/",
                 ];
                 const colors = ["#3b5998", "#0077b5", "#ff0000", "#C13584"];
                 return (
