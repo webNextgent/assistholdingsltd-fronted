@@ -84,7 +84,7 @@ const Relentlessingoingbeyond: React.FC = () => {
               reliability, and long-term growth in mind.
             </motion.p>
 
-            <motion.p
+            {/* <motion.p
               className="text-base leading-relaxed mb-6"
               initial="hidden"
               whileInView="visible"
@@ -97,7 +97,7 @@ const Relentlessingoingbeyond: React.FC = () => {
               become a reality. This will be accomplished by introducing
               state-of-the-art innovative Japanese technologies with the
               partnership with Creed Group from Japan.
-            </motion.p>
+            </motion.p> */}
 
             <motion.p
               className="text-base leading-relaxed mb-6"
